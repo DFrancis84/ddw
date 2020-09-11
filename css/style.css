@@ -19,3 +19,7 @@ body {
 footer {
     text-align: center;
 }
+
+#notAbout, #about {
+    box-shadow: -4px 4px white;
+}
