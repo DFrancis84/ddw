@@ -23,3 +23,7 @@ footer {
 #notAbout, #about {
     box-shadow: -4px 4px white;
 }
+
+#substanceAbuse, #drugFreeWorkplace, #paternityTesting {
+    box-shadow: -4px 4px white;
+}
