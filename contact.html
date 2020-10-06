@@ -25,7 +25,7 @@
    </nav>
     <ul class="nav nav-pills bg-success justify-content-center">
         <li class="nav-item">
-            <a class="nav-link text-dark active" href="index.html">Home</a>
+            <a class="nav-link text-dark" href="index.html">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" href="about.html">About</a>
@@ -34,16 +34,39 @@
             <a class="nav-link text-dark" href="services.html">Services</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-dark" href="contact.html">Contact</a>
+            <a class="nav-link text-dark active" href="contact.html">Contact</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-dark" href="#">Resources</a>
         </li>
     </ul>
 
-
-
-
+    <div class="container mt-5" id="contactForm">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="https://www.fillmurray.com/g/200/200" style="width:100%">
+        </div>
+        <div class="column">
+            <form 
+              action="https://formspree.io/f/devinfrancis84+test@gmail.com" 
+              method="POST">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name..">
+                <label for=telephone">Telephone Number</label>
+                <input type="text" id="tel" name="telephone" placeholder="(502)867-5309">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="_replyto" placeholder="Your email..">
+                <label for="subject">Comments</label>
+                <textarea id="subject" name="subject" placeholder="Comments..." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
 
 
 
