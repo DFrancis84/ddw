@@ -20,11 +20,7 @@ footer {
     text-align: center;
 }
 
-#notAbout, #about {
-    box-shadow: -4px 4px white;
-}
-
-#substanceAbuse, #drugFreeWorkplace, #paternityTesting {
+#notAbout, #about, #substanceAbuse, #drugFreeWorkplace, #paternityTesting, #contactForm {
     box-shadow: -4px 4px white;
 }
 
